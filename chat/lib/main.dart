@@ -6,9 +6,9 @@ void main() async {
   runApp(MyApp());
 
   Firestore.instance
-      .collection('col')
-      .document('doc')
-      .setData({'texto': 'Caio'});
+      .collection("col")
+      .document("doc")
+      .setData({"texto": "caio"});
 }
 
 class MyApp extends StatelessWidget {
