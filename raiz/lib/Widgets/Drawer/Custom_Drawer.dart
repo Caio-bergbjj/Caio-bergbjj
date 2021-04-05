@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_flutter/Widgets/Drawer/title.dart';
+import 'package:raiz/Widgets/Drawer/title.dart';
 import '../../Cores.dart';
 
 class CustomDrawer extends StatelessWidget {
@@ -58,7 +58,8 @@ class CustomDrawer extends StatelessWidget {
                   ),
                 ),
                 Divider(),
-                DrawerTitle(Icons.person_outline_outlined, 'Conthfgthfghfghfgha'),
+                DrawerTitle(
+                    Icons.person_outline_outlined, 'Conthfgthfghfghfgha'),
                 DrawerTitle(Icons.lock_outlined, 'Privacidade'),
                 DrawerTitle(Icons.notifications_none_rounded, 'Notificações'),
                 DrawerTitle(Icons.person_add_outlined, 'Convidar Amigos'),

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:projeto_flutter/Widgets/BottomSheet.dart';
-import 'package:projeto_flutter/Widgets/Drawer/Custom_Drawer.dart';
-import 'package:projeto_flutter/screens/Home/4Container.dart';
-import 'package:projeto_flutter/screens/Home/3Container.dart';
-import 'package:projeto_flutter/screens/Home/1Container.dart';
+import 'package:raiz/Widgets/BottomSheet.dart';
+import 'package:raiz/Widgets/Drawer/Custom_Drawer.dart';
 
 import '../../Cores.dart';
+import '1Container.dart';
 import '2Container.dart';
+import '3Container.dart';
+import '4Container.dart';
 
 class Home extends StatefulWidget {
   @override

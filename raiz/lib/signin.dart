@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:raiz/screens/Home/home.dart';
 
 class SigninScreen extends StatefulWidget {
   @override
@@ -235,7 +236,13 @@ class _SigninScreenState extends State<SigninScreen> {
                                     color: Color(0xFFFC00E3),
                                   ),
                                   child: FlatButton(
-                                    onPressed: () {},
+                                    onPressed: () {
+                                      Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                              builder: (BuildContext context) =>
+                                                  Home()));
+                                    },
                                     child: Text(
                                       "Continuar",
                                       style: TextStyle(

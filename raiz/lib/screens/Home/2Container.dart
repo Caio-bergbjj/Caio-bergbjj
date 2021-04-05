@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:percent_indicator/percent_indicator.dart';
+//import 'package:percent_indicator/percent_indicator.dart';
 
 import '../../Cores.dart';
 
@@ -30,7 +30,7 @@ class _InfoCartState extends State<InfoCart> {
               ),
             ),
           ),
-          Padding(
+          /* Padding(
             padding: EdgeInsets.only(top: 10.0),
             child: LinearPercentIndicator(
               width: 300.00,
@@ -39,7 +39,7 @@ class _InfoCartState extends State<InfoCart> {
               backgroundColor: Colors.grey,
               progressColor: customPurple,
             ),
-          ),
+          ),*/
           Align(
             alignment: Alignment.bottomRight,
             child: Padding(
