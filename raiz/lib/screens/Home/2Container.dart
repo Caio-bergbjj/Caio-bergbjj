@@ -55,7 +55,7 @@ class _InfoCartState extends State<InfoCart> {
             child: Padding(
               padding: const EdgeInsets.only(left: 15.0, top: 30.0),
               child: Text(
-                "Fechamento da fatura: xx/xx/xxxx",
+                "Fechamento da faturagfdgdfgfdgdf: xx/xx/xxxx",
                 style: TextStyle(
                   fontSize: 12.0,
                 ),
